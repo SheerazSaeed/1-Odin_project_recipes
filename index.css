@@ -1,11 +1,27 @@
 body {
 
-    background-color: whitesmoke;
-    text-align: center;
+    background-color: darkgrey;
     color: black;
+}    
+
+#bobo {
+
+    text-align: center;
 }
 
-#h1 {
+#kebab, 
+#tikka,
+#biryani {
 
-    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    background-color: beige ;
+}
+
+#bb,
+#kk,
+#ct {
+
+    background-color: darkgrey;
+    color: black;
 }
