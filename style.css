@@ -1,0 +1,40 @@
+body {
+
+    background-color: rgb(rgb(228, 196, 138), green, blue);
+    color: black;
+    text-align: center;       
+}  
+
+.kebab, 
+.tikka,
+.biryani {
+
+    font-size: 24px;
+    color: black;
+    background-color: beige ; 
+}
+
+.img_chef {
+
+    text-align: center;
+    position: relative
+}
+
+button {
+
+    margin: 20px;
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-bottom: auto;
+    padding-left: 2px;
+    border: 5px solid;
+    
+}
+
+h1.intro_bir {
+
+    margin: 5px;
+    border: none;
+    padding: 0px 50px 0px 50px;
+    text-align :left;
+}
