@@ -1,27 +1,22 @@
 body {
 
-    background-color: darkgrey;
+    background-color: rgb(rgb(228, 196, 138), green, blue);
     color: black;
-}    
+    text-align: center;       
+}  
 
-#bobo {
-
-    text-align: center;
-}
-
-#kebab, 
-#tikka,
-#biryani {
+.kebab, 
+.tikka,
+.biryani {
 
     font-size: 24px;
     color: black;
-    background-color: beige ;
+    background-color: beige ; 
 }
 
-#bb,
-#kk,
-#ct {
+button {
 
-    background-color: darkgrey;
-    color: black;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid;
 }
