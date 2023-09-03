@@ -1,3 +1,8 @@
+* {
+
+    line-height: 1.75;
+}
+
 body {
 
     background-color: rgb(rgb(228, 196, 138), green, blue);
@@ -12,6 +17,7 @@ body {
     font-size: 24px;
     color: black;
     background-color: beige ; 
+
 }
 
 .img_chef {
@@ -40,4 +46,5 @@ button {
     padding: 20px 100px 0px 100px;
     text-align :left;
     display:block
+    
 }
