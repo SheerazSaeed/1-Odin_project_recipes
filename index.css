@@ -1,22 +1,73 @@
-body {
-
-    background-color: rgb(rgb(228, 196, 138), green, blue);
-    color: black;
-    text-align: center;       
-}  
-
-.kebab, 
-.tikka,
-.biryani {
-
-    font-size: 24px;
-    color: black;
-    background-color: beige ; 
+* {
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-button {
+body {
+    background-color: rgb(228, 196, 138);
+    color: black;
+    text-align: center;       
+    font-family: 'Arial', sans-serif;
+}  
 
-    margin: auto;
-    padding: 5px;
-    border: 5px solid;
+header {
+    margin-bottom: 30px;
+}
+
+.header img {
+    margin-top: 20px;
+}
+
+.img-chef {
+    height: 100px;
+    width: 100px;
+}
+
+.recipe-links {
+    list-style-type: none;
+}
+
+.recipe-links li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.recipe-links a {
+    font-size: 24px;
+    color: black;
+    background-color: beige;
+    padding: 10px 20px;
+    border: 5px solid black;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.featured-recipes {
+    margin: 40px auto;
+    width: 80%;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
