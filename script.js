@@ -1,14 +1,26 @@
-document.addEventListener('DOMContentLoaded', () => {
-  // Toggle Recipe Details
-  const recipeCards = document.querySelectorAll('.recipe-card');
-  recipeCards.forEach(card => {
-      card.addEventListener('click', () => {
-          card.classList.toggle('expanded');
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.recipe-links a').forEach(link => {
+      link.addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent the default link behavior
+          fetchRecipeContent(this.getAttribute('href')); // Fetch and display content
       });
   });
-
-  // Update Recipe of the Day
-  const recipes = ['Kebabs', 'Chicken Tikka', 'Chicken Biryani'];
-  const recipeOfTheDay = recipes[Math.floor(Math.random() * recipes.length)];
-  document.getElementById('recipe-of-the-day').textContent = recipeOfTheDay;
 });
+
+function fetchRecipeContent(href) {
+  fetch(href)
+      .then(response => {
+          if (!response.ok) {
+              throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return response.text();
+      })
+      .then(html => {
+          document.getElementById('recipe-content').innerHTML = html;
+      })
+      .catch(error => {
+          console.error('Error fetching recipe:', error);
+          document.getElementById('recipe-content').innerHTML = `<p>Error loading recipe.</p>`;
+      });
+}
+

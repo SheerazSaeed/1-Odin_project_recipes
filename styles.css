@@ -21,8 +21,9 @@ header {
 }
 
 .img-chef {
-    height: 100px;
-    width: 100px;
+    padding: 20px;
+    height: 200px;
+    width: 250px;
 }
 
 .recipe-links {
@@ -67,7 +68,7 @@ footer {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
