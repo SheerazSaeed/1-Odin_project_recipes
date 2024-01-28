@@ -1,4 +1,4 @@
-<!--Introduction
+Introduction
 Welcome to my very first GitHub project – the Odin Recipes Project! This project is a vibrant journey into the world of web development, primarily focusing on the foundational pillars of HTML and CSS, with a dash of JavaScript added to spice things up.
 
 As a beginner stepping into the expansive universe of coding, I've embarked on this project to solidify my understanding of web development basics. The Odin Recipes Project serves as a practical application of the skills I've been cultivating, allowing me to translate theoretical knowledge into a tangible, interactive website.
@@ -20,4 +20,4 @@ Version Control with Git: This being my first GitHub project, I've also learned 
 Conclusion
 This project marks the beginning of my journey into web development. It stands as a testament to my growth and a foundation upon which I will continue to build more complex and diverse projects. I invite you to explore the Odin Recipes Project, witness my development progress, and share any feedback or suggestions you might have.
 
-Thank you for visiting my project! -->
+Thank you for visiting my project!
